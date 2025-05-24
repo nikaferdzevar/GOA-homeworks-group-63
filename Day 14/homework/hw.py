@@ -3,7 +3,7 @@
 # ისევ შემოატანინეთ ემაილი და პაროლი(ეს იქნება ავტორიზაცია) და თუ შემოტანილი 
 # მნიშვნელობები დაემთხვევა რეგისტრაციისას შეყვანლის, დაბეჭდეთ True, სხვა შემთხვევაში False.
 
-password="ananoo"
+password="password"
 user_input=input("enter your email : ")
 print(user_input == password)  #false
 
@@ -39,24 +39,6 @@ if 1 > 3 or 4 > 2:
 if 1 > 3 or 2 > 7:
     print("This will not print")
 
-
-
-if not (5 > 3):
-    print("This will not print")
-
-if not (3 > 5):
-    print("This will print")
-
-if not ("apple" != "banana"):
-    print("This will not print")
-
-if not (7 == 7):
-    print("This will not print")
-
-
-
-
-
 if (5 > 3) != (7 < 2):
     print("Only one condition is True")
 
@@ -71,3 +53,4 @@ if (2 > 3) != (4 > 7):
 
 if (10 == 10) != (7 > 8):
     print("This will print because only one is True")
+

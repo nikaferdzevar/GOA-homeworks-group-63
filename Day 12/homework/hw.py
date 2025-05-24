@@ -11,17 +11,16 @@ difference_result = int(string_number) - integer_number
 print("განსხვავება:", difference_result)
 
 multiplication_result = int(string_number) * integer_number
-print("გამოცვლა:", multiplication_result)
+print("ნამრავლი:", multiplication_result)
 
 division_result = int(string_number) / integer_number
-print("გაყოფა:", division_result)
+print("სხვაობა:", division_result)
 
 
 # მომხმარებელს შემოატანინეთ სიმაღლე, გადააქციეთ float-ად და დაბეჭდეთ მისი მონაცემთა ტიპი
 
-height = input("შეიტანეთ თქვენი სიმაღლე: ")
-height_float = float(height)
-print("სიმაღლის მონაცემთა ტიპი (float):", type(height_float))
+height = float(input("შეიტანეთ თქვენი სიმაღლე: "))
+print("სიმაღლის მონაცემთა ტიპი:", type(height))
 
 
 # კომენტარებით ახსენით რა არის Data Convertion.

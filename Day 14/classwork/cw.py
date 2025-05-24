@@ -26,6 +26,14 @@ print(87!=87)
 #  შემდეგ მომხმარებელს შემოატანინეთ თავისი სახელი და თუ 
 # თქვენი სახელი ემთხვევა მისას, დაბეჭდეთ True, სხვა შემთხვევაში False.
 
-name="anano"
+name="Nika"
 input=input("enter youe name : ")
 print(input == name)
+
+
+
+
+
+
+
+

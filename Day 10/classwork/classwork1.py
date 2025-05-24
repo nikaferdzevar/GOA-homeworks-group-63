@@ -13,4 +13,4 @@ number1 =input("enter a number: ")
 number2 =input("enter a number: ")
 number3 =input("enter a number: ")
 
-print(int(number1)+int(number2)+int(number3))
+print(int(number1)*int(number2)*int(number3))
