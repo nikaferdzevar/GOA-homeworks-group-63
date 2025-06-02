@@ -1,0 +1,25 @@
+<!-- 2) თქვენს მიერ გამოტანილ ვიდეოს დაუმატეთ სხვადასხვა ვარიანტები შემდეგ ფორმატებში mp4, ogg, webm.
+
+ასევე თუ არცერთი ფორმატი არ გაეშვა გამოიტანეთ ტექსტი Video not supported
+
+3) კომენტარებით ახსენით რას აკეთებს type ატრიბუტი source თეგისთვის -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Video Formats Example</title>
+</head>
+<body>
+    <video controls muted autoplay loop width="600">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+        <source src="https://www.w3schools.com/html/mov_bbb.webm" type="video/webm">
+        
+        Video not supported
+    </video>
+    <!--
+        type ატრიბუტი source თეგისთვის მიუთითებს ვიდეო ფაილის ფორმატს. 
+        ეს საშუალებას აძლევს ბრაუზერს დაადგინოს, რომელი ფორმატი უნდა გამოიყენოს ვიდეოს ჩასატვირთად.
+        თუ ბრაუზერი არ უჭერს მხარს მოცემულ ფორმატს, ის გადადის შემდეგ source-ზე.
+        თუ არცერთი ფორმატი არ არის მხარდაჭერილი, მაშინ გამოიტანს ტექსტს "Video not supported".
+    -->
+</body>
